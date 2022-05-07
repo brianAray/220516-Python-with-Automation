@@ -45,7 +45,7 @@ Struggling to understand what Python is actually even doing? An online IDE to vi
 
 ### Questions
 - What is an identifier?
-- What are the best practices in naming one?
+- What are the best practices when naming one?
 
 ---
 ## Keywords
@@ -55,7 +55,7 @@ Struggling to understand what Python is actually even doing? An online IDE to vi
 
 ### Questions
 - What is a keyword?
-- Examples of keywords and what they are for
+- Examples of keywords and describe their use case in Python
 
 <br>
 
@@ -67,7 +67,7 @@ Struggling to understand what Python is actually even doing? An online IDE to vi
 
 ### Questions
 - What is a data type?
-- List all of them and what they are
+- List all of them and what examples of them in Python
 - Is python statically or dynamically typed?
 
 ---
@@ -76,10 +76,9 @@ Struggling to understand what Python is actually even doing? An online IDE to vi
 - https://www.geeksforgeeks.org/type-conversion-python/
 
 ### Questions
-- What is it type conversion?
+- What is type conversion?
 - Why is it used?
 - What can you do with it?
-  
 
 <br>
 
