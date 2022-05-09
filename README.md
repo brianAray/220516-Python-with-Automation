@@ -6,8 +6,7 @@
 
 > This document provides a list of the required technologies for anyone who will be going through the Python/Automation program. It details why each technology is required and provides some step-by-step instructions on how to install and configure the technologies. This guide also walks you through any needed environment setup.
 
-**NOTE**: It is **very** important that you install these technologies as soon as possible, environment setup will not be covered during the lessons
-It is also key that you install the correct versions of the tools listed here as not all versions of the technologies we will use are guaranteed to be compatible with each other. If you are unsure about it, check online or with your team.
+**NOTE**: It is **very** important that you install these technologies as soon as possible, environment setup will not be covered during the lessons. It is also key that you install the correct versions of the tools listed here as not all versions of the technologies we will use are guaranteed to be compatible with each other. If you are unsure about it, check online or with your team.
 Windows 10 is the assumed default operating system. If you choose to use a different operating system or version of one of the tools listed here, you will be **responsible** for debugging issues that are specific to your development environment.
 
 ## Required Technologies
@@ -40,9 +39,9 @@ Optional
 
 > Understand that an IDE is not essential to programming, it provides a lot of helpful features like autocorrect and error checking, a handy editor and terminal to make testing and debugging easier, clear file structure, and more. However, the IDE itself is basically a glorified text editor, even notepad.exe is fine to use to make programs so don't confuse the IDE with the program, it is still only a tool used to make the program, not the program itself. 
 
-- **Intellij Community Edition**: Intellij community edition is an excellent Java focused IDE. Make sure to install the community edition instead of the ultimate as that begins with a free trial and then requires a subscription. Intellij also has a plugin market that can further enhance your programming experience.
+- **Visual Studio Code**: Visual Studio Code is a text editor that makes viewing and modifying code simple. However, this actually leads to its greatest benefit as it is light weight and fast unlike a typical IDE as a lot of extra features that are not needed does not come preinstalled. If you wish to add any extra features / plugins to aid your development experience, there are many Visual Studio Extensions that can be installed within the application. 
 
-- **Visual Studio Code (Optional)**: Visual Studio Code is a text editor that makes viewing and modifying code simple. Do not confuse this tool with an integrated development environment as it does not come equipped with all of the development tools you typically find in an IDE. This tool is optional, but it can be helpful if you are new to programming and wish to familiarize yourself with the syntax of the Java programming language. 
+- **Intellij Community Edition (Optional)**: Intellij community edition is an excellent Java focused IDE. Make sure to install the community edition instead of the ultimate as that begins with a free trial and then requires a subscription. Intellij also has a plugin market that can further enhance your programming experience.
 
 - **PyCharm (Optional)**: PyCharm acts as an integrated development environment for Python. Again, an IDE is not required, but it is useful for rapid development.
 
