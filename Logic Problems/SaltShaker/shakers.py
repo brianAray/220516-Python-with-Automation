@@ -19,8 +19,8 @@ def generate_default_shakers():
     return shakers
 
 
-def print_scenario(case_number, shakers):
-    print(f"Case {case_number + 1}")
+def print_scenario(case, shakers):
+    print(f"Valid Case: \n{case}")
     for shaker in shakers:
         print(shaker)
 
@@ -49,11 +49,11 @@ def validate_scenario(shakers):
 def main():
     test_cases = generate_test_cases()
 
-    for i in range(len(test_cases)):
+    for case in test_cases:
         shakers = generate_default_shakers()
-        updated_shaker = execute_scenario(test_cases[i], shakers)
+        updated_shaker = execute_scenario(case, shakers)
         if(validate_scenario(updated_shaker)):
-            print_scenario(i, shakers)
+            print_scenario(case, shakers)
 
 if __name__ == "__main__":
     main()
