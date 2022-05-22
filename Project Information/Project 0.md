@@ -35,7 +35,6 @@ Your job is to create an webservice that allows the following:
 - Accounts must be uniquely identified
 - Users must access their account using a unique username and password
 - Users must be uniquely identified
-- The automation service should provide some form of end result
 
 ## Testing Requirements
 - All service methods must have:
