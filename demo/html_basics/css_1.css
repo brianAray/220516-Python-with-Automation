@@ -1,0 +1,14 @@
+
+.para_1 {
+    color:chocolate
+}
+
+#table_1 {
+    margin: 1em;
+    border: 3px double rgba(255, 0, 0, 0.6);
+    border-right-style: dashed;
+    border-left-width: 17px;
+    border-bottom-color: orange;
+}
+
+

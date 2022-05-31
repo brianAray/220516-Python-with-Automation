@@ -7,7 +7,13 @@ def get_registration_page():
 
 def register_user(register_input):
     # validate input
-    if validate_registration(register_input):
+    input_dict = {
+        "username": register_input["username"],
+        "password": register_input["password"],
+        "first_name": register_input["first_name"],
+        "last_name": register_input["last_name"],
+    }
+    if validate_registration(input_dict):
         # create user
         user_id = create_login(register_input)
         info_id = create_user_info(user_id, register_input)
