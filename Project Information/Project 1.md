@@ -1,7 +1,9 @@
 # Project 1
 
+## Due Date
+6 / 17 / 2022
 ## Description
-You are tasked with creating an expense reimbursement system for a small company/group. This program will allow employees to create reimbursement requests for their business expenditures, while also providing a way to track the amount of money they have spent.
+As an assigned pair (or trio), you are tasked with creating an expense reimbursement system for a small company/group. This program will allow employees to create reimbursement requests for their business expenditures, while also providing a way to track the amount of money they have spent.
 
 ## Purpose
 - Increase your development experience
@@ -13,24 +15,19 @@ You are tasked with creating an expense reimbursement system for a small company
     - Login to their account with a unique username and a password
     - Submit reimbursement requests with a description and a dollar amount 
         - (Optional) Have categories for your requests
-        - (Difficult Optional) Upload files related to the request
     - See ongoing and previous requests
     - Cancel ongoing requests
         - (Optional) Update ongoing requests
-    - See statistics related to their reimbursements
 
 - Managers must be able to:
     - Have the same options as an employee
     - Approve / decline reimbursement requests
-        - Not allowed to do it to their own requests
         - (Optional) provide a reason why
-        - (Difficult Optional) View the uploaded file for the request
 
 ### Business Rules
 - Employees reimburesment requests must be between $1 and $1000 per request
 - Employee reimburesment request comments must be no longer than 100 characters
 - Employee reimbursement requests must be in numeric form
-- Employees must be given a visual notice upon a successful or failed reimbursement request
 
 ### Requirements
 - Follow Behavior Driver Development and Test Driven Development practices
@@ -79,11 +76,6 @@ You are tasked with creating an expense reimbursement system for a small company
 - The priority is to make sure the requirements are reached
 - A Testing report is required to finish the project
 - Everything else is optional, if you have time here are some features you can include
-  - Load testing using SOAP UI
-  - SPA website
-        - Host website on an S3 bucket
+  - Host website on an S3 bucket
   - Python running on EC2 instance
-  - File upload by employees for request reimbursement
-    - File download by managers for request management
   - Encrypt passwords in the database
-  - JWT Session handling
