@@ -34,7 +34,7 @@ As an assigned pair (or trio), you are tasked with creating an expense reimburse
 - You must produce and utilize the following documentation:
     - Test Strategy
     - Test Plan
-    - Test Suite
+    - Test Suite / Case
     - Test Results
     - Requirement Traceability Matrix
     - User Stories
