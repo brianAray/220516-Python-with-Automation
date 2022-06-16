@@ -26,9 +26,9 @@ public class MainMenu {
 		
 		
 	}
-	
+		
 	//methods
-	
+		
 	public void start () {
 		//method signatures: access mods (optional), non access mods (opt), return type, methodName, arguemnts (opt), throws exceptions (opt)
 		//accesss mods: public, private, protected, etc
