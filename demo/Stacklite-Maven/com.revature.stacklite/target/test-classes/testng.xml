@@ -1,0 +1,45 @@
+<!--
+  We can set the level of verboseness in our testNG tests depending on how
+  much information we wish to see
+-->
+<suite name="Group of group Suite" verbose="1">
+  <test name="Group of group Test">
+
+  <!--
+    The tag <group></group> is used to specify the methods that you wish to
+    group together. The group names can be whatever you want
+  -->
+    <groups>
+
+      <define name="include-group">
+        <!--
+          In order to put a Test method inside a group, with the @Test annotation,
+          a group value must have been given in order to uniquely identify it
+        -->
+        <include name="include-test-one"/>
+      </define>
+      <!--
+        The <run></run> tag is used to specify how the group is run
+        It is similar to including methods in a group, except it now refers to the
+        test suite and what groups to include or not include
+      -->
+      <run>
+        <!--
+          We refer to the name of the group in order to include or exclude
+        -->
+        <include name="include-group"/>
+
+      </run>
+    </groups>
+
+    <!--
+      Make sure to link the test class you wish to link this suite to
+      If you don't do this then testNG will have no idea where to read any of this
+      information from
+    -->
+    <classes>
+      <class name="com.revature.stacklite.TestIssue"/>
+    </classes>
+
+  </test>
+</suite>

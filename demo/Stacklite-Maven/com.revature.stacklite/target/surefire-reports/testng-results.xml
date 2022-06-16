@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-15T08:25:55 PDT" name="Group of group Suite" finished-at="2022-06-15T08:25:55 PDT" duration-ms="96">
+    <groups>
+      <group name="include-test-one">
+        <method signature="TestIssue.testSetId()[pri:0, instance:com.revature.stacklite.TestIssue@2e222612]" name="testSetId" class="com.revature.stacklite.TestIssue"/>
+      </group> <!-- include-test-one -->
+    </groups>
+    <test started-at="2022-06-15T08:25:55 PDT" name="Group of group Test" finished-at="2022-06-15T08:25:55 PDT" duration-ms="96">
+      <class name="com.revature.stacklite.TestIssue">
+        <test-method signature="testSetId()[pri:0, instance:com.revature.stacklite.TestIssue@2e222612]" started-at="2022-06-15T08:25:55 PDT" name="testSetId" finished-at="2022-06-15T08:25:55 PDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetId -->
+      </class> <!-- com.revature.stacklite.TestIssue -->
+    </test> <!-- Group of group Test -->
+  </suite> <!-- Group of group Suite -->
+</testng-results>
