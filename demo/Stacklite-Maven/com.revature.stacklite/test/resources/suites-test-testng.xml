@@ -1,0 +1,46 @@
+<!-- When declaring the suite, the "parallel" attribute is given the value "tests"
+which leads to all tests generated being run in parallel
+
+TestNG supports multi-threading
+in other words, @Test methods can be run in parallel
+Multitherading can be acheived by using the attribute "thread-count=<number>" in a .testng.xml
+The thread count is basically a number of instances running to execute multiple tests simultaneously (in parallel)
+The attribute thread-count allow the user to specify how many threads should be run for this execution
+
+
+
+ -->
+
+
+<suite name="Parallel Test" parallel="tests" thread-count="3">
+
+	<parameter name="another-name" value="It's the weekend!"/>
+
+
+	<test name="test1">
+		<parameter name="test-name" value="Hello test1"/>
+		<classes>
+			<class name="com.revature.stacklite.ParallelSuiteTest"/>
+		</classes>
+	</test>
+
+
+
+	<test name="test2">
+		<parameter name="test-name" value="Hello test2"/>
+		<classes>
+			<class name="com.revature.stacklite.ParallelSuiteTest"/>
+		</classes>
+	</test>
+	
+	
+	<test name="test3">
+		<parameter name="test-name" value="Hello test3"/>
+		<classes>
+			<class name="com.revature.stacklite.ParallelSuiteTest"/>
+		</classes>
+	</test>
+	
+	
+	
+</suite>
