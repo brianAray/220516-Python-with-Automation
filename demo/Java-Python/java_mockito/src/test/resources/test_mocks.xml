@@ -1,0 +1,9 @@
+<suite name="Testing Mocks Suite">
+
+    <test name="Mocking Calculator for Mathematician">
+        <classes>
+            <class name="com.revature.TestMathematician"/>
+        </classes>
+    </test>
+
+</suite>

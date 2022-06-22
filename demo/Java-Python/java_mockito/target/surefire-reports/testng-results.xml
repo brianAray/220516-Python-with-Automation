@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Mocks Suite" duration-ms="510" started-at="2022-06-22T11:27:59 EDT" finished-at="2022-06-22T11:27:59 EDT">
+    <groups>
+    </groups>
+    <test name="Mocking Calculator for Mathematician" duration-ms="510" started-at="2022-06-22T11:27:59 EDT" finished-at="2022-06-22T11:27:59 EDT">
+      <class name="com.revature.TestMathematician">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.revature.TestMathematician@1f554b06]" name="setup" is-config="true" duration-ms="440" started-at="2022-06-22T11:27:59 EDT" finished-at="2022-06-22T11:27:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="givenTwoInt_whenAdded_thenCorrectAddition_data_provider(java.util.List,int,int)[pri:0, instance:com.revature.TestMathematician@1f554b06]" name="givenTwoInt_whenAdded_thenCorrectAddition_data_provider" duration-ms="29" started-at="2022-06-22T11:27:59 EDT" data-provider="numProvider" finished-at="2022-06-22T11:27:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[30, 10]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenTwoInt_whenAdded_thenCorrectAddition_data_provider -->
+        <test-method status="PASS" signature="givenTwoInt_whenAdded_thenCorrectAddition_data_provider(java.util.List,int,int)[pri:0, instance:com.revature.TestMathematician@1f554b06]" name="givenTwoInt_whenAdded_thenCorrectAddition_data_provider" duration-ms="1" started-at="2022-06-22T11:27:59 EDT" data-provider="numProvider" finished-at="2022-06-22T11:27:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[-100, 10]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenTwoInt_whenAdded_thenCorrectAddition_data_provider -->
+        <test-method status="PASS" signature="givenTwoInt_whenAdded_thenCorrectAddition_data_provider(java.util.List,int,int)[pri:0, instance:com.revature.TestMathematician@1f554b06]" name="givenTwoInt_whenAdded_thenCorrectAddition_data_provider" duration-ms="1" started-at="2022-06-22T11:27:59 EDT" data-provider="numProvider" finished-at="2022-06-22T11:27:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[500, 9]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[509]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenTwoInt_whenAdded_thenCorrectAddition_data_provider -->
+        <test-method status="PASS" signature="givenTwoInts_whenAdded_thenCorrectAddition()[pri:0, instance:com.revature.TestMathematician@1f554b06]" name="givenTwoInts_whenAdded_thenCorrectAddition" duration-ms="2" started-at="2022-06-22T11:27:59 EDT" finished-at="2022-06-22T11:27:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenTwoInts_whenAdded_thenCorrectAddition -->
+      </class> <!-- com.revature.TestMathematician -->
+    </test> <!-- Mocking Calculator for Mathematician -->
+  </suite> <!-- Testing Mocks Suite -->
+</testng-results>
