@@ -34,13 +34,14 @@ public class days_step_def {
         actualAnswer = IsItMonday.isItMonday(today);
     }
 
-    
     @When("I ask whether it's Friday")
     public void i_ask_whether_it_s_friday() {
         actualAnswer = IsItFriday.isItFriday(today);
     }
+
     @Then("I should be told {string}")
     public void i_should_be_told(String string) {
         Assert.assertEquals(actualAnswer, string);
     }
+
 }

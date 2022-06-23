@@ -1,0 +1,9 @@
+<suite name="Login Test Suite">
+
+    <test name="Cucumber login">
+        <classes>
+            <class name="com.revature.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
