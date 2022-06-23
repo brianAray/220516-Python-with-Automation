@@ -1,0 +1,9 @@
+<suite name="suite">
+
+  <test name="mockProviderTest">
+    <classes>
+      <class name="com.revature.TestApp" />
+    </classes>
+  </test>
+
+</suite>

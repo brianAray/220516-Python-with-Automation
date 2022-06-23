@@ -1,0 +1,56 @@
+<!--
+  When declaring the suite, the "parallel" attribute is given the value tests
+  which leads to all tests generated being run in parallel
+
+  The number of threads is declared using the attribute "thread-count" and giving
+  it the number of threads we want run
+-->
+<suite name="Parallel test" parallel="tests" thread-count="3">
+
+  <!--
+    another-name parameter is needed in each thread, by declaring it
+    in the suite but outside a test case, every test will have the same
+    value for that parameter
+  -->
+  <parameter name="another-name" value="Hi there!"/>
+
+  <test name="Test one">
+    <parameter name="test-name" value="Test one"/>
+    <classes>
+      <class name="com.revature.ParallelSuiteTest"/>
+    </classes>
+  </test>
+
+  <test name="Test two">
+    <parameter name="test-name" value="Test two"/>
+    <classes>
+      <class name="com.revature.ParallelSuiteTest"/>
+    </classes>
+  </test>
+
+  <test name="Test three">
+    <parameter name="test-name" value="Test three"/>
+    <!--
+      Each test is run in parallel so they are isolated from one another
+      Therefore you must specify which test class it is referencing
+    -->
+    <classes>
+      <class name="com.revature.ParallelSuiteTest"/>
+    </classes>
+  </test>
+
+
+  <!--
+    There is nothing stoping you from running others tests in your test suite
+    that are from another test class.
+    Just make sure you are referencing it correctly and it will run like any
+    other tests
+  -->
+
+  <test name="mockProviderTest">
+    <classes>
+      <class name="com.revature.TestApp" />
+    </classes>
+  </test>
+
+</suite>
