@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1101" started-at="2022-06-23T11:06:28 EDT" finished-at="2022-06-23T11:06:29 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.revature.RunCucumberTest@5b87ed94]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="1101" started-at="2022-06-23T11:06:28 EDT" finished-at="2022-06-23T11:06:29 EDT">
+      <class name="com.revature.RunCucumberTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.revature.RunCucumberTest@5b87ed94]" name="setUpClass" is-config="true" duration-ms="683" started-at="2022-06-23T11:06:28 EDT" finished-at="2022-06-23T11:06:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1c852c0f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.revature.RunCucumberTest@5b87ed94]" name="runScenario" duration-ms="220" started-at="2022-06-23T11:06:29 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-23T11:06:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sunday is not Friday"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Is it Friday yet?]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.revature.RunCucumberTest@5b87ed94]" name="runScenario" duration-ms="16" started-at="2022-06-23T11:06:29 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-23T11:06:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Friday is Friday"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Is it Friday yet?]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.revature.RunCucumberTest@5b87ed94]" name="runScenario" duration-ms="16" started-at="2022-06-23T11:06:29 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-23T11:06:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Today is or is not Monday"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Is it Monday yet?]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.revature.RunCucumberTest@5b87ed94]" name="runScenario" duration-ms="17" started-at="2022-06-23T11:06:29 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-23T11:06:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Today is or is not Monday"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Is it Monday yet?]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.revature.RunCucumberTest@5b87ed94]" name="runScenario" duration-ms="11" started-at="2022-06-23T11:06:29 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-23T11:06:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Today is or is not Monday"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Is it Monday yet?]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.revature.RunCucumberTest@5b87ed94]" name="runScenario" duration-ms="15" started-at="2022-06-23T11:06:29 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-23T11:06:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Today is or is not Monday"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Is it Monday yet?]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.revature.RunCucumberTest@5b87ed94]" name="tearDownClass" is-config="true" duration-ms="65" started-at="2022-06-23T11:06:29 EDT" finished-at="2022-06-23T11:06:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.revature.RunCucumberTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
