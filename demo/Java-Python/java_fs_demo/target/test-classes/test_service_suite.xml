@@ -1,0 +1,7 @@
+<suite name="Service Test Suite">
+    <test name="Item Service Test">
+        <classes>
+            <class name="com.revature.service.ItemServiceTest"/>
+        </classes>
+    </test>
+</suite>

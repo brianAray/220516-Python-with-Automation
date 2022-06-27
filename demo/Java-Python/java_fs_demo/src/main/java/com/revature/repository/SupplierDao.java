@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.revature.repository.entities.SupplierEntity;
@@ -45,8 +46,28 @@ public class SupplierDao implements SupplierDaoInterface{
 
     @Override
     public List<SupplierEntity> selectAll() {
-        // TODO Auto-generated method stub
-        return null;
+        Connection connection = ConnectionFactory.getConnection();
+        String sql = "SELECT * FROM supplier_table;";
+
+        List<SupplierEntity> supplier = new ArrayList<>();
+
+        try{
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            while(resultSet.next()){
+                supplier.add(new SupplierEntity(
+                    resultSet.getInt(1),
+                    resultSet.getString(2),
+                    resultSet.getString(3)
+                ));
+            }
+
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+        return supplier;
     }
     
 }

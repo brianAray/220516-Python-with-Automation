@@ -71,5 +71,31 @@ public class ItemDao implements ItemDaoInterface{
         }
         return items;
     }
+
+    public List<ItemEntity> selectAllBySupplierId(int supplierId) {
+        Connection connection = ConnectionFactory.getConnection();
+        String sql = "SELECT * FROM item_table WHERE supplier_id=? ;";
+
+        List<ItemEntity> items = new ArrayList<>();
+
+        try{
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+            preparedStatement.setInt(1, supplierId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            while(resultSet.next()){
+                items.add(new ItemEntity(
+                    resultSet.getInt(1), 
+                    resultSet.getInt(2), 
+                    resultSet.getString(3),
+                    resultSet.getInt(4)));
+            }
+
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+        return items;
+    }
     
 }
