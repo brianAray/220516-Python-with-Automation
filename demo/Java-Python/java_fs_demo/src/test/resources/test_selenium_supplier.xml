@@ -1,0 +1,7 @@
+<suite name="Selenium tests with the Supplier Page">
+    <test name="Test Valid Supplier Id provides Item info">
+        <classes>
+            <class name="com.revature.TestRunner"/>
+        </classes>
+    </test>
+</suite>

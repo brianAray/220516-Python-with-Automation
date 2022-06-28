@@ -12,6 +12,7 @@ import com.revature.util.ConnectionFactory;
 import io.cucumber.java.bs.I;
 import io.javalin.Javalin;
 import io.javalin.apibuilder.ApiBuilder;
+import io.javalin.http.staticfiles.Location;
 
 import static io.javalin.apibuilder.ApiBuilder.*;
 
@@ -36,7 +37,17 @@ public class App
 
 
 
-        Javalin app = Javalin.create().start(9090);
+        Javalin app = Javalin.create(
+            config -> {
+                config.addStaticFiles("src/main/resources/public", Location.EXTERNAL);
+            }
+        );
+
+        app.start(9090);
+
+        app.get("/", ctx -> {
+            ctx.redirect("index.html");
+        });
 
         app.routes(() -> {
             path("item", () -> {

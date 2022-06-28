@@ -45,7 +45,7 @@ public class ItemService {
             itemEntity.getId(), 
             itemEntity.getName(), 
             itemEntity.getPrice(), 
-            supplierService.getSupplier(itemEntity.getSupplier_id())
+            supplierService.getSupplierUrl(itemEntity.getSupplier_id())
             );
     }
 

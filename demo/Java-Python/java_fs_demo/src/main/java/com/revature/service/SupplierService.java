@@ -23,7 +23,7 @@ public class SupplierService {
         this.supplierDao = supplierDao;
     }
 
-    public List<Supplier> getSupplier(int supplier_id) {
+    public List<Supplier> getSupplierUrl(int supplier_id) {
         SupplierEntity supplierEntity = supplierDao.select(supplier_id);
         List<Supplier> supplierList = new ArrayList<>();
         supplierList.add(convertSupplierUrl(supplierEntity));
@@ -31,7 +31,9 @@ public class SupplierService {
     }
 
     private Supplier convertSupplierUrl(SupplierEntity supplierEntity) {
-        return new Supplier(supplierEntity.getName(), "url");
+        return new Supplier(
+            supplierEntity.getName(), 
+            "http://localhost:9090/supplier/" + supplierEntity.getId());
     }
 
     private SupplierModel convertSupplierModel(SupplierEntity supplierEntity){
@@ -51,6 +53,10 @@ public class SupplierService {
         }
 
         return supplierModels;
+    }
+
+    public SupplierModel getSupplier(int id) {
+        return convertSupplierModel(supplierDao.select(id));
     }
 
 }

@@ -1,4 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.39 s - in TestSuite
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.111 s <<< FAILURE! - in TestSuite
+com.revature.TestRunner.feature["A user searches for a supplier using their id", "Supplier Search Feature"](1)  Time elapsed: 3.905 s  <<< FAILURE!
+java.lang.AssertionError: expected [name: Flour price: 20] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.revature.StepDefinitions.SupplierSearchStepImpl.the_user_can_see_the_suppliers_listed_items(SupplierSearchStepImpl.java:49)
+	at ✽.the user can see the suppliers listed items(file:///C:/Users/Bravo/Programming/Repositories/Batches/220516-Python-with-Automation/demo/Java-Python/java_fs_demo/src/test/resources/features/SupplierSearch.feature:11)
+
+com.revature.TestRunner.runScenario["A user searches for a supplier using their id", "Supplier Search Feature"](1)  Time elapsed: 1.767 s  <<< FAILURE!
+java.lang.AssertionError: expected [name: Flour price: 20] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.revature.StepDefinitions.SupplierSearchStepImpl.the_user_can_see_the_suppliers_listed_items(SupplierSearchStepImpl.java:49)
+	at ✽.the user can see the suppliers listed items(file:///C:/Users/Bravo/Programming/Repositories/Batches/220516-Python-with-Automation/demo/Java-Python/java_fs_demo/src/test/resources/features/SupplierSearch.feature:11)
+

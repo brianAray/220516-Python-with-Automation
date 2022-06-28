@@ -1,0 +1,15 @@
+# Created at 2022-06-28T12:25:10.694
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'earch.feature:6)'.
+
+# Created at 2022-06-28T12:25:10.696
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0m'.
+
+# Created at 2022-06-28T12:25:10.698
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '  [36mWhen [0m[36ma user enters a valid supplier id[0m                [90m# com.revature.StepDefinitions.SupplierSearchStepImpl.a_user_enters_a_valid_supplier_id()[0m'.
+
+# Created at 2022-06-28T12:25:10.701
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '  [36mAnd [0m[36mclicks on the search button[0m                       [90m# com.revature.StepDefinitions.SupplierSearchStepImpl.clicks_on_the_search_button()[0m'.
+
+# Created at 2022-06-28T12:25:10.703
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '  [36mThen [0m[36mthe user can see the suppliers listed items[0m      [90m# com.revature.StepDefinitions.SupplierSearchStepImpl.the_user_can_see_the_suppliers_listed_items()[0m'.
+

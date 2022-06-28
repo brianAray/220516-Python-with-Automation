@@ -79,6 +79,7 @@
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>src/test/resources/test_service_suite.xml</suiteXmlFile>
+            <suiteXmlFile>src/test/resources/test_selenium_supplier.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
